@@ -1,0 +1,82 @@
+.word_container{
+    background-color: aliceblue;
+
+    width: 30%;
+    height: 50%;
+    border: 1px solid red;
+}
+
+.word_container>ul {
+    list-style-type: none;
+    overflow: auto;
+
+    padding-left: 45px!important;
+}
+
+.word_container > ul > li{
+    font-weight: 700;
+    float: left;
+    width: 14%;
+
+    margin: 0.1rem;
+}
+.word_btn{
+    /* border: none;
+    background: none; */
+    width:3.5rem;
+    font-size: medium;
+}
+.logout_btn {
+    height: 2rem;
+    width: 5rem;
+    margin-top: 1.5rem;
+
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+}
+.container{
+    display: flex;
+    background: coral;
+    padding: 3rem;
+    justify-content: space-around;
+}
+.word_container> h2{
+    padding-left: 6rem;
+}
+.output_container{
+    border: 1px solid red;
+    padding: 2rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-right: 10rem;
+    background: antiquewhite;
+}
+.login_form{
+    display: flex;
+    justify-content: center;
+    padding : 10rem;
+    flex-direction: column;
+    align-items: center;
+}
+.logout_btn{
+    margin: 2rem;
+    font-size: medium;
+    background: yellow;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    padding-bottom: 1.6rem;
+    color: black;
+}
+.show_home_page{
+    align-items: center;
+    display: flex;
+    background: coral;
+    flex-direction: column;
+}
+.output_container{
+    background: ghostwhite;
+}
